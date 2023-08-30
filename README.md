@@ -1,2 +1,0 @@
-# Daniels
- Portfolio website
