@@ -1,0 +1,988 @@
+<!--This code was writen by Mohamad Amr Shehab-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniels</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> -->
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/mediaQuery.css">
+  <link rel="icon" href="Images/bg.jpg">
+
+</head>
+
+<body>
+  <header class="home vh-100 position-relative" id="home">
+    <div
+      class="layer bg-black bg-opacity-75 position-absolute top-0 bottom-0 end-0 start-0 d-flex justify-content-center">
+      <div class="homeContent text-center text-white align-self-center">
+        <div class="homeText">
+          <h2 class="fw-bolder">Hello</h2>
+          <h1>I Am <span class="mov fw-normal"></span></h1>
+        </div>
+        <div>
+          <i class="fab fa-facebook me-3 homeICon "></i>
+          <i class="fab fa-twitter me-3 homeICon "></i>
+          <i class="fab fa-linkedin me-3 homeICon "></i>
+          <i class="fab fa-behance me-3 homeICon "></i>
+          <i class="fab fa-youtube me-3 homeICon "></i>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-black bg-opacity-75 navbar-dark fixed-top">
+      <div class="container py-3 px-5">
+        <a class="navbar-brand fw-bold" href="#">Daniels</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about py-5" id="about">
+    <div class="container">
+      <div class="row  m-auto">
+        <div class="col-md-5 ">
+          <div class="aboutImg p-3 text-end">
+            <img class="w-75 " src="Images/hero.jpg" alt="hero">
+          </div>
+
+        </div>
+        <div class="col-md-7">
+          <div class="aboutContent p-3">
+            <div class="aboutheader">
+              <h3 class="fw-bolder">About Me.</h3>
+              <h5 class="fw-light text-secondary fs-6 mb-4">UI / UX DESIGNER & WEB DEVELOPE</h5>
+              <p class="text-secondary">I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is simply dummy text
+                of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also
+                the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged.
+            </div>
+            <div class="aboutProgress">
+              <div class="progress  mb-4">
+                <div class="progress-bar px-2 examBg" role="progressbar" aria-label="Example with label"
+                  style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><span>Web Design</span>
+                  <span>95%</span>
+                </div>
+              </div>
+              <div class="progress mb-4">
+                <div class="progress-bar px-2 examBg" role="progressbar" aria-label="Example with label"
+                  style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span>Branding</span>
+                  <span>80%</span>
+                </div>
+              </div>
+              <div class="progress mb-4">
+                <div class="progress-bar px-2 examBg" role="progressbar" aria-label="Example with label"
+                  style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <span>Development</span><span>90%</span>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="aboutBtn">
+              <button type="button"
+                class="aboutBtnStyle1 examBg rounded-3 text-white p-2 px-3 me-3 border border-1  border-dark">Download
+                C.V</button>
+              <button type="button"
+                class="aboutBtnStyle2 bg-white rounded-3 text-black p-2 px-3 border border-1  border-dark">Contact
+                me</button>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="services py-5" id="services">
+    <div class="services_content w-75  m-auto pt-5">
+      <div class="header pt-3">
+        <div class="sec_header text-center ">
+          <h2 class="fw-bolder fs-1">SERVICES.</h2>
+        </div>
+      </div>
+      <div class="services_parent  container  mt-5 mb-5">
+        <div class="row flex-wrap">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="services_member">
+              <div class="services_ico">
+                <span class="services_circle">
+                  <i class="fa fa-laptop"></i>
+                </span>
+              </div>
+
+
+              <div class="services_text">
+                <h4 class="fs-5 fw-bold">WEB DESIGN</h4>
+                <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="services_member">
+              <div class="services_ico">
+                <span class="services_circle">
+                  <i class="fa fa-bullhorn"></i>
+                </span>
+              </div>
+
+
+              <div class="services_text">
+                <h4 class="fs-5 fw-bold">Branding</h4>
+                <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="services_member">
+              <div class="services_ico">
+                <span class="services_circle">
+                  <i class="fa fa-umbrella"></i>
+                </span>
+              </div>
+
+
+              <div class="services_text">
+                <h4 class="fs-5 fw-bold">Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="services_member">
+              <div class="services_ico">
+                <span class="services_circle">
+                  <i class="fa-regular fa-gem"></i>
+                </span>
+              </div>
+
+
+              <div class="services_text">
+                <h4 class="fs-5 fw-bold">Creative Design </h4>
+                <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="services_member">
+              <div class="services_ico">
+                <span class="services_circle">
+                  <i class="fa fa-television"></i>
+                </span>
+              </div>
+
+
+              <div class="services_text">
+                <h4 class="fs-5 fw-bold">Fully Responsive</h4>
+                <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="services_member">
+              <div class="services_ico">
+                <span class="services_circle">
+                  <i class="fa fa-camera"></i>
+                </span>
+              </div>
+
+
+              <div class="services_text">
+                <h4 class="fs-5 fw-bold">Retina Ready</h4>
+                <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio py-5" id="portfolio">
+    <div class="container w-75">
+      <div class="row">
+        <div class="col-12">
+          <div class="header">
+            <div class="sec_header text-center ">
+              <h2 class="fw-bolder fs-1">Portfolio.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="row flex-nowrap">
+        <div class="col-xl-12">
+          <ul class="nav nav-tabs justify-content-center mt-4" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active text-black fw-bold fs-5" id="all-tab" data-bs-toggle="tab"
+                data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane"
+                aria-selected="true">All</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-black fw-bold fs-5" id="brand-tab" data-bs-toggle="tab"
+                data-bs-target="#brand-tab-pane" type="button" role="tab" aria-controls="brand-tab-pane"
+                aria-selected="false">Brand</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-black fw-bold fs-5" id="design-tab" data-bs-toggle="tab"
+                data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane"
+                aria-selected="false">Design</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-black fw-bold fs-5" id="graphic-tab" data-bs-toggle="tab"
+                data-bs-target="#graphic-tab-pane" type="button" role="tab" aria-controls="graphic-tab-pane"
+                aria-selected="false">Graphic</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row flex-nowrap overflow-hidden">
+
+        <div class="  tab-content col-12" id="myTabContent">
+          <div class="tab-pane fade" id="brand-tab-pane" role="tabpanel" aria-labelledby="brand-tab" tabindex="0">
+            <div class="row gy-4 mt-2">
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/4.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-42" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-42" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/4.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/6.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-61" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-61" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/6.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab"
+            tabindex="0">
+
+            <div class="row gy-4 mt-2">
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/1.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-1" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/1.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/2.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-2" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/2.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/3.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-3" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/3.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/4.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-4" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/4.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/5.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-5" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/5.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/6.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-6" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/6.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade col-12" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab"
+            tabindex="0">
+            <div class="row gy-4 mt-2">
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/4.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-42" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-42" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/4.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/6.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-61" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-61" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/6.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade col-12" id="graphic-tab-pane" role="tabpanel" aria-labelledby="graphic-tab"
+            tabindex="0">
+            <div class="row gy-4 mt-2">
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/1.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-1" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/1.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/3.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-3" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/3.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="portofiloMemeber d-flex justify-content-center align-items-center position-relative">
+                  <img class="w-100" src="Images/portfolio/5.jpg" alt="portfolio">
+                  <div class="portoflioLayer"></div>
+                  <div class="imgHover text-center position-absolute">
+                    <div class="hoverText">
+                      <h6>Web Design</h6>
+                      <a href="#"><i class="fa fa-chain-broken"></i></a>
+                      <i class="fa fa-search-plus" alt="Superior Breads" data-bs-toggle="modal"
+                        data-bs-target="#gallery-5" type="button"></i>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="gallery-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                          <div class="modal-body">
+                            <img class="w-100" src="Images/portfolio/5.jpg" alt="baking">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              =
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <section class="testimonials py-5"  id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="header">
+            <div class="sec_header text-center ">
+              <h2 class="fw-bolder fs-1">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="carousel-btn active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="carousel-btn"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="carousel-btn"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active mycarousel container">
+                <div class="mycarousel-info">
+                  <div class="clint-pic">
+                    <img src="Images/clients/1 (1).jpg" class="d-block  m-auto" alt="client">
+                  </div>
+                  <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took
+                    a
+                    galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="carousel-caption d-none d-md-block text-center mb-5 client-info">
+                  <h6>Alex Smith</h6>
+                  <span>Envato Customer</span>
+                </div>
+              </div>
+              <div class="carousel-item  mycarousel container">
+                <div class="mycarousel-info">
+                  <div class="clint-pic">
+                    <img src="Images/clients/1 (1).jpg" class="d-block  m-auto" alt="client">
+                  </div>
+                  <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took
+                    a
+                    galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="carousel-caption d-none d-md-block text-center mb-5 client-info">
+                  <h6>Alex Smith</h6>
+                  <span>Envato Customer</span>
+                </div>
+              </div>
+              <div class="carousel-item  mycarousel container">
+                <div class="mycarousel-info">
+                  <div class="clint-pic">
+                    <img src="Images/clients/1 (1).jpg" class="d-block  m-auto" alt="client">
+                  </div>
+                  <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took
+                    a
+                    galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="carousel-caption d-none d-md-block text-center mb-5 client-info">
+                  <h6>Alex Smith</h6>
+                  <span>Envato Customer</span>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="counterSec py-5">
+    <div class="container py-3">
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="counter ">
+            <i class="fa fa-users fa-2x text-black mb-3"></i>
+            <h2 class="timer" data-to="100" data-speed="1500"></h2>
+            <p class="count-text fw-bold text-secondary">Happy Customers</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="counter">
+            <section class="counterSec ">
+              <i class="fa fa-thumbs-up fa-2x text-black fw-bold mb-3"></i>
+              <h2 class="timer" data-to="1700" data-speed="1500"></h2>
+              <p class="count-text fw-bold text-secondary">Complete Projects</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="counter ">
+            <section class="counterSec ">
+              <i class="fa fa-bullhorn fa-2x text-black mb-3"></i>
+              <h2 class="timer " data-to="11900" data-speed="1500"></h2>
+              <p class="count-text fw-bold text-secondary">Lines Of Code</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="counter">
+            <section class="counterSec ">
+              <i class="fa fa-cloud-download fa-2x text-black mb-3"></i>
+              <h2 class="timer " data-to="157" data-speed="1500"></h2>
+              <p class="count-text fw-bold text-secondary">Files Downloaded</p>
+          </div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </div>
+  </section>
+
+
+  <section class="blog py-5" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="header">
+            <div class="sec_header text-center ">
+              <h2 class="fw-bolder fs-1">Our Blog.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row myrow">
+                <div class="col-lg-4 ">
+                  <div class="card">
+                    <img src="Images/blog/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-content text-start">
+                        <h6><a href="#0">Trends</a></h6>
+                        <h4><a href="#0">Best Design Items to Appeal to the Millennial Generation</a></h4>
+                        <span><a href="#0">Read More</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 ">
+                  <div class="card">
+                    <img src="Images/blog/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-content text-start">
+                        <h6><a href="#0">Trends</a></h6>
+                        <h4><a href="#0">Best Design Items to Appeal to the Millennial Generation</a></h4>
+                        <span><a href="#0">Read More</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 ">
+                  <div class="card">
+                    <img src="Images/blog/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-content text-start">
+                        <h6><a href="#0">Trends</a></h6>
+                        <h4><a href="#0">Best Design Items to Appeal to the Millennial Generation</a></h4>
+                        <span><a href="#0">Read More</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row myrow">
+                <div class="col-lg-4 ">
+                  <div class="card">
+                    <img src="Images/blog/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-content text-start">
+                        <h6><a href="#0">Trends</a></h6>
+                        <h4><a href="#0">Best Design Items to Appeal to the Millennial Generation</a></h4>
+                        <span><a href="#0">Read More</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 ">
+                  <div class="card">
+                    <img src="Images/blog/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-content text-start">
+                        <h6><a href="#0">Trends</a></h6>
+                        <h4><a href="#0">Best Design Items to Appeal to the Millennial Generation</a></h4>
+                        <span><a href="#0">Read More</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 ">
+                  <div class="card">
+                    <img src="Images/blog/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-content text-start">
+                        <h6><a href="#0">Trends</a></h6>
+                        <h4><a href="#0">Best Design Items to Appeal to the Millennial Generation</a></h4>
+                        <span><a href="#0">Read More</a></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="carousel-btn active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                class="carousel-btn" aria-label="Slide 2"></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="contact py-5" id="contact">
+    <div class="container w-75">
+      <div class="row mb-5">
+        <div class="col-12">
+          <div class="header pt-3">
+            <div class="sec_header text-center ">
+              <h2 class="fw-bolder fs-1">Contact Us.</h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6 col-lg-4">
+          <div class="contactMember text-center">
+            <i class="fa fa-location-arrow"></i>
+            <h5 class="fw-bold">Address</h5>
+            <p class="text-secondary">6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="contactMember text-center">
+            <i class="fa fa-envelope"></i>
+            <h5 class="fw-bold">Email</h5>
+            <p class="text-secondary">Support@website.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="contactMember text-center">
+            <i class="fa fa-phone"></i>
+            <h5 class="fw-bold">Phone</h5>
+            <p class="text-secondary">+20 11 540 187</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="contact_form p-3">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <input type="text" class="form-control sectionColor" id="exampleFormControlInput1"
+                placeholder="Your Name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3">
+              <input type="email" class="form-control sectionColor" id="exampleFormControlInput1"
+                placeholder="Your Email">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control sectionColor" id="exampleFormControlTextarea1" placeholder="Message"
+              rows="5"></textarea>
+          </div>
+          <div><button type="button" class="btn btn-dark px-4 py-2 rounded-2 fs-6">Submit</button></div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="copy-right">
+      <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/counter.js"></script>
+</body>
+
+</html>

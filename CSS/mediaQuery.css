@@ -1,0 +1,12 @@
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .homeContent h2{
+        font-size: 2rem;
+    }
+
+}
+/* .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px !important;
+} */
